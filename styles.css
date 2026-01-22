@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  color: #111827;
+  padding: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* =========================
+   HEADER / NAV
+   ========================= */
+#header {
+  background-color: #1f3d2b;
+  border-radius: 4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+#nav-bar li {
+  list-style: none;
+}
+#nav-bar ul {
+  display: flex;
+  gap: 1.5rem;
+}
+.nav-link {
+  color: #f9fafb;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.nav-link:hover {
+  color: #1e1e1e;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* =========================
+   Images styles
+   ========================= */
+#header img {
+  width: 200px;
+  height: auto;
+}
+.image {
+  max-width: 300px;
+  width: 100%;
+}
+.image img {
+  width: 100%;
+  height: auto;
+}
+video {
+  display: block;
+  margin: 0 auto 2rem auto;
+}
+
+/* =========================
+   League grid
+   ========================= */
+#league {
+  background-color: #f9fafb;
+  color: #6b7280;
+  border: 1px solid #e5e7eb;
+  padding: 1rem;
+  margin: 2rem 0 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1rem;
+}
+#league h2 {
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+.description {
+  text-align: justify;
+}

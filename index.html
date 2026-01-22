@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fire Pitch</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header id="header">
+      <img id="header-img" src="./assets/logo.png" alt="" />
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#">League</a></li>
+          <li><a class="nav-link" href="#">Pickup games</a></li>
+          <li><a class="nav-link" href="#">Prices</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <video width="700" height="300" controls autoplay>
+      <source src="./assets/202749-918944227_tiny.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+    <form
+      id="form"
+      action="https://www.freecodecamp.org/email-submit"
+      method="post"
+    >
+      <input
+        name="email"
+        id="email"
+        type="email"
+        placeholder="Enter your email address"
+        required
+      />
+      <input id="submit" type="submit" value="Get Started" class="btn" />
+    </form>
+
+    <div id="league">
+      <div class="item">
+        <h2>COED</h2>
+        <p class="description">
+          Our Coed Sunday League is all about fun, friendly competition, and
+          getting a great run in. All skill levels welcome—just show up, play
+          hard, and enjoy soccer with good people every Sunday.
+        </p>
+        <div class="image">
+          <img src="./assets/coed.jpg" alt="COED league" />
+        </div>
+      </div>
+      <div class="item">
+        <h2>MEN</h2>
+        <p class="description">
+          Our Men’s Sunday League brings competitive, high-energy games with a
+          solid community vibe. All skill levels welcome—just good soccer,
+          strong competition, and a great way to spend your Sunday.
+        </p>
+        <div class="image">
+          <img src="./assets/men.jpg" alt="Men league" />
+        </div>
+      </div>
+      <div class="item">
+        <h2>WOMEN</h2>
+        <p class="description">
+          Our Women’s Sunday League is a space to play hard, have fun, and
+          connect with other players who love the game. Expect competitive
+          matches, supportive vibes, and a great run every Sunday—open to all
+          skill levels.
+        </p>
+        <div class="image">
+          <img src="./assets/woman.webp" alt="woman league" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
