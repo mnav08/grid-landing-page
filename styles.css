@@ -199,6 +199,10 @@ footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
+  color: #f9fafb;
+}
+.footer-col h4 {
+  margin-bottom: 0.7em;
 }
 footer .left {
   line-height: 1.4;
@@ -210,9 +214,12 @@ footer .center {
 }
 .center a {
   text-decoration: underline;
-  color: #111827;
+  color: #f9fafb;
   cursor: pointer;
 }
 .center a:hover {
   color: #e5e7eb;
+}
+.right a {
+  color: #f9fafb;
 }
