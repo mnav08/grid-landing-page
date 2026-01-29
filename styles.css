@@ -162,6 +162,7 @@ video {
   grid-template-columns: repeat(2, 1fr);
   gap: 0.5em;
   padding: 1em;
+  margin-bottom: 2em;
 }
 .price-card {
   background: #f9fafb;
