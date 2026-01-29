@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Document: Fire Pitch — landing page for local soccer leagues and pickup games -->
     <meta charset="UTF-8" />
     <title>Fire Pitch</title>
     <link rel="stylesheet" href="styles.css" />
@@ -11,8 +12,11 @@
   </head>
 
   <body>
+    <!-- Main header: branding and primary navigation -->
     <header id="header">
-      <img id="header-img" src="./assets/logo.png" alt="" />
+      <!-- site logo -->
+      <img id="header-img" src="./assets/logo.png" alt="fire Pitch logo" />
+      <!-- Primary navigation: anchor links to page sections -->
       <nav id="nav-bar">
         <ul>
           <li><a class="nav-link" href="#league">League</a></li>
@@ -22,11 +26,13 @@
       </nav>
     </header>
 
+    <!-- Hero/video: short looped promo clip; controls provided so users can pause -->
     <video width="700" height="300" controls autoplay loop>
       <source src="./assets/202749-918944227_tiny.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
 
+    <!-- Email signup, 'email' is required -->
     <form
       id="form"
       action="https://www.freecodecamp.org/email-submit"
@@ -41,8 +47,10 @@
       />
       <input id="submit" type="submit" value="Get Started" class="btn" />
     </form>
-    <!--   Leagues Grid section -->
+
+    <!-- Leagues Grid section: overview of league offerings -->
     <div id="league">
+      <!-- COED league card -->
       <div class="item">
         <h2>COED</h2>
         <p class="description">
@@ -54,6 +62,7 @@
           <img src="./assets/coed.jpg" alt="COED league" />
         </div>
       </div>
+      <!-- MEN league card -->
       <div class="item">
         <h2>MEN</h2>
         <p class="description">
@@ -65,6 +74,7 @@
           <img src="./assets/men.jpg" alt="Men league" />
         </div>
       </div>
+      <!-- WOMEN league card -->
       <div class="item">
         <h2>WOMEN</h2>
         <p class="description">
@@ -79,8 +89,9 @@
       </div>
     </div>
 
-    <!--   Pickup games Grid section -->
+    <!-- Pickup games Grid section: day-parted pickup offerings -->
     <div id="pickup">
+      <!-- Early Bird, Lunch, Evening items -->
       <div class="item">
         <h2>Early Bird</h2>
         <p class="description">
@@ -117,6 +128,7 @@
       </div>
     </div>
 
+    <!-- Prices: pricing cards for leagues and pickup games -->
     <div id="prices">
       <article class="price-card">
         <h3>11v11 Coed League</h3>
@@ -154,6 +166,8 @@
         </ul>
       </article>
     </div>
+
+    <!-- Footer: contact details, quick links, social icons -->
     <footer>
       <div class="footer-col left">
         <address>
